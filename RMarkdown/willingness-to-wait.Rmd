@@ -1,0 +1,56 @@
+---
+title: "Disposición a esperar y sus consecuancias"
+author: "María Fernanda Salcido Álvarez"
+date: "20 de Marzo del 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#knitr::opts_chunk$set(echo = TRUE)
+#knitr::opts_chunk$set(cache = TRUE)
+
+# Avoid scientific notation
+options(scipen = 999)
+
+# Create beautiful graphs
+#install.packages("ggplot")
+library(ggplot2)
+# TeX expressions in graphs labels
+
+#install.packages("latex2exp")
+library(latex2exp)
+# Title on multiple plots
+#install.packages("grid")
+library(grid)
+# Assemble multiple plots on a page
+#install.packages("gridExtra")
+library(gridExtra)
+```
+
+\section{Antecedentes} 
+
+La industria de los combustibles fósiles en México es constantemente afectada por el robo de la gasolina. Dicha actividad es llamada huachicoleo. Si el mercado de la gasolina se encuentra en equilibrio y el huchicoleo provoca una disminución en la cantidad intercambiada de la gasolina, entonces la precio de la gasolina subirá y el consumidor sufrirá las consecuencias de ello destinando una mayor procentaje de ingreso al consumo de la gasolina. Si huachicoleo continua, entonces tanto el excendente del consdumidor como el excedente del productor disminuirán. Además de afectar la economía, el robo de gasolina es un delito y tiene que ser perseguido.
+
+Para resolver el problema, el gobierno de México tiene que interrumpir el abasto del combustible, lo cual genera un costo en el bienestar de las personas que necesitan la gasolina, pues mucha gente ha tenido que desperdiciar su tiempo en largas filas para llenar el tanque de sus vehículos en las gasolineras en donde el abasto no fue interrumpido.
+
+Los ciudadanos se han manifestado molestos ante la situación y eso ha provocado que aumente el desapruebo el gobierno del actual presidente Andrés Manual López Obrador. 
+
+\section{Resumen}
+
+El objetivo de este estudio es evaluar qué tanto valor aporta a la sociedad el esperar y sufrir las consecuencias del desabasto de gasolina con la finalidad de terminar con el huachicoleo, y qué tan probable es que la gente acepte sufrir esas consecuancias. 
+
+Si los usuarios de las gasolineras deciden esperar, entonces se aporará valor a la sociedad porque sería posible implementar las medidas planeadas para terminar con el huachicoleo.
+
+```{r, include=FALSE}
+n <- 394
+```
+
+Se entrevistó a un total de $`r n`$ personas para estimar el efecto del costo y el tiempo en la disposición de las personas para esperar a que se resuelva el problema del huachicoleo.
+
+Results: A  preference  for  low  cost  and  rapid  implementation  times  was  observed,  with investigators more likely to incur costs than to accept a time delay in project start-up. SD  analysis  indicated  that  although  initially  extra  time  and  cost  are  necessary  for clinical  study  standardisation,  there  is  a  decrease  in  both  over  time.  Conclusions: Future studies should explore ways of creating mechanisms which decrease the time and  cost  associated  with  standardisation  processes.  In  addition,  the  fact  that  the costs  and  time  necessary  for  data  standards  implementation  decrease  with  time should  be  made  known  to  the  wider  research  community.  Policy  makers  should attempt  to  match  their  data  standardisation  policies  better  with  the  expectations  of researchers.
+
+\section{Resultados}
+
+Lo que se tiene que hacer despues de este estudio es explorar y evaluar que tan efectiva fue la medida del desabasto.
+

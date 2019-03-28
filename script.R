@@ -1,4 +1,4 @@
 library(tidyverse)
 library(haven)
 
-data <- read_dta(file = "BaseCombinada2.dta")
+data <- read_dta(file = "data.dta")
