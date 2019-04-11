@@ -14,4 +14,5 @@ Work basen on the following article: <https://www.researchgate.net/publication/2
 -regresiones
 -construir modelos (hacer relaciones lineales)
 -sacar conclusiones 
+-titularse
 
